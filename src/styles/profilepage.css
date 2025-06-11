@@ -1,0 +1,35 @@
+/* ProfilePage.css */
+
+.profile-container {
+  background-color: #f4f8fb;
+  min-height: 100vh;
+}
+
+.profile-card {
+  background-color: #ffffff;
+  border-left: 5px solid #007bff;
+  transition: box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.profile-card h2 {
+  font-weight: 700;
+  color: #007bff;
+}
+
+
+.resume-container{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
